@@ -175,11 +175,3 @@ def get_response(message, id="000"):
     else:  # if no results
         response = "I apologize if my response wasn't what you were looking for. As an AI language model, my knowledge and understanding are limited by the data that I was trained on. If you need more detailed or specific information, I suggest consulting with a human expert or conducting further research online. Please let me know if you have any other questions or if there's anything else I can help you with."
     return str(response)
-
-count=0
-    while count<5:
-      message = input()
-      response = get_response(message)
-      print(response)
-      count+=1
-
